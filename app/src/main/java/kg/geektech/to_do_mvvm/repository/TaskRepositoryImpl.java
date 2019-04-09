@@ -47,6 +47,7 @@ public class TaskRepositoryImpl implements TaskRepository {
 
     }
 
+    
     private static class insertAsyncTask extends AsyncTask<Task, Void, Void> {
 
         private TaskDao taskDao;
